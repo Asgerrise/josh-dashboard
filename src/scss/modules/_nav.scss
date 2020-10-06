@@ -1,0 +1,19 @@
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4.5em;
+  height: 82%;
+
+  &__item {
+    margin-bottom: 2.5em;
+
+    &_last {
+      margin-top: auto;
+    }
+  }
+  &__icon {
+    font-size: 1.6em;
+  }
+}
